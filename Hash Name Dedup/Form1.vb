@@ -81,7 +81,6 @@ Public Class Form1
     End Sub
     Private Sub ListFiles(ByVal folderPath As String)
         'This lists the filenames in the selected working path
-        Me.filesListBox.AutoSize = True
         filesListBox.Items.Clear()
         hashListBox.Items.Clear()
         Dim fileNames = My.Computer.FileSystem.GetFiles(folderPath)
@@ -110,6 +109,10 @@ Public Class Form1
 
 
 
+
+    End Sub
+
+    Private Sub filesListBox_SelectedIndexChanged(sender As Object, e As EventArgs) Handles filesListBox.SelectedIndexChanged
 
     End Sub
 End Class

@@ -40,10 +40,12 @@ Partial Class Form1
         '
         'filesListBox
         '
+        Me.filesListBox.Font = New System.Drawing.Font("Courier New", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.filesListBox.FormattingEnabled = True
+        Me.filesListBox.ItemHeight = 14
         Me.filesListBox.Location = New System.Drawing.Point(12, 71)
         Me.filesListBox.Name = "filesListBox"
-        Me.filesListBox.Size = New System.Drawing.Size(349, 212)
+        Me.filesListBox.Size = New System.Drawing.Size(349, 200)
         Me.filesListBox.Sorted = True
         Me.filesListBox.TabIndex = 1
         '
@@ -58,10 +60,12 @@ Partial Class Form1
         '
         'hashListBox
         '
+        Me.hashListBox.Font = New System.Drawing.Font("Courier New", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hashListBox.FormattingEnabled = True
+        Me.hashListBox.ItemHeight = 14
         Me.hashListBox.Location = New System.Drawing.Point(554, 71)
         Me.hashListBox.Name = "hashListBox"
-        Me.hashListBox.Size = New System.Drawing.Size(349, 212)
+        Me.hashListBox.Size = New System.Drawing.Size(349, 200)
         Me.hashListBox.Sorted = True
         Me.hashListBox.TabIndex = 3
         '
