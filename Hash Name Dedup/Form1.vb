@@ -96,16 +96,7 @@ Public Class Form1
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-
-        ' We specify the file path
-        Dim path As String = "C:\mon_fichier.exe"
-
-        ' And we compute the hashes : MD5, SHA-1 and SHA-256
-        Dim hash_md5 = md5_hash(path)
-
-
-
-
+        'MessageBox
 
 
 
