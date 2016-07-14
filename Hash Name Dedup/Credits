@@ -1,0 +1,5 @@
+'Credit goes to the following helps:
+http://us.informatiweb.net/tutorials/programing/1-vb-net/36--generate-hashes-md5-sha-1-and-sha-256-of-a-file.html
+https://msdn.microsoft.com/en-us/library/cahdzfxw.aspx
+https://msdn.microsoft.com/en-us/library/system.security.cryptography.md5(v=vs.110).aspx
+https://msdn.microsoft.com/en-us/library/system.io.path.getfilename(v=vs.110).aspx
